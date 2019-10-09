@@ -1,0 +1,13 @@
+#card_with_image_content a {
+  color: #363636 !important;
+  font-size: 40px;
+  margin-left: 10px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.card_index {
+  display: none;
+}
