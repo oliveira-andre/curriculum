@@ -1,13 +1,49 @@
+html, body {
+  background-color: #282A36;
+}
+
+nav.navbar {
+  background-color: #282A36;
+  border-bottom: 1px solid #8BE9FD;
+}
+
+a, p, span, h1, h2, h3, h4, h5, h6, label {
+  color: #f8f8f2 !important;
+}
+
+.content {
+  color: #f8f8f2 !important;
+}
+
+.content strong {
+  color: #f8f8f2 !important;
+}
+
 #card_with_image_content a {
-  color: #363636 !important;
+  color: #f8f8f2 !important;
   font-size: 40px;
   margin-left: 10px;
 }
 
+a:hover {
+  color: #BD93F9 !important;
+  background-color: #44475A !important;
+}
+
 .card {
   margin-top: 20px;
+  border: 1px solid #44475A;
+  background-color: #282A36;
+}
+
+header.card-header {
+  border-bottom: 1px solid #44475A;
 }
 
 .card_index {
   display: none;
+}
+
+.media-content p.title {
+  text-align-last: center;
 }
